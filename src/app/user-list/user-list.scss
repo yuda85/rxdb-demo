@@ -1,0 +1,81 @@
+/* user-list.component.css */
+.user-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.add-user-form {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.add-user-form h3 {
+  margin-top: 0;
+}
+
+.add-user-form form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.add-user-form input {
+  flex: 1;
+  min-width: 150px;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-user-form button {
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-user-form button:hover {
+  background: #0056b3;
+}
+
+.users-list {
+  display: grid;
+  gap: 15px;
+}
+
+.user-item {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.user-item h4 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.user-item p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.user-item button {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.user-item button:hover {
+  background: #c82333;
+}
