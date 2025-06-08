@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Cesium specific styles */
+.cesium-viewer {
+  width: 100%;
+  height: 100%;
+}
+
+/* Override some Cesium default styles if needed */
+.cesium-viewer-cesiumWidgetContainer {
+  background-color: #000;
+}
+
+.cesium-widget-credits {
+  display: none !important;
+}
+
+/* Optional: Hide Cesium InfoBox if you don't need it */
+.cesium-viewer-infoBoxContainer {
+  display: block;
+}
+
+/* Optional: Style the timeline if you enable it */
+.cesium-viewer-timelineContainer {
+  background: rgba(42, 42, 42, 0.8);
+}
